@@ -14,6 +14,10 @@ import { FooterComponent } from './footer/footer.component';
 import { DreamComponent } from './dream/dream.component';
 import { TryItComponent } from './try-it/try-it.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'primeng/carousel';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,9 @@ import { TryItComponent } from './try-it/try-it.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
