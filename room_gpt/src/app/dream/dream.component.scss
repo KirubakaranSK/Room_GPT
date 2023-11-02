@@ -1,0 +1,54 @@
+@import "../../styles.scss";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 159px;
+}
+
+.btn-dream {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: $secondary-color;
+  font-size: 2rem;
+  border: 1px solid $secondary-color;
+  span {
+    color: $primary-color;
+    font-weight: 600;
+  }
+}
+h1 {
+  font-size: 7rem;
+  width: 63%;
+  display: inline-block;
+  padding: 35px;
+  span{
+    color: $primary-color;
+  }
+}
+p{
+  font-size: 2rem;
+  width: 42%;
+  display: inline-block;
+  line-height: 3rem;
+  margin-bottom: 31px;
+
+}
+.btn-google{
+    display:flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 16px;
+    padding: 14px 28px;
+    border: none;
+    img{
+        height: 30px;
+    }
+    h4{
+        font-size: 2rem;
+    }
+}
+

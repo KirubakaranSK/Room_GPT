@@ -11,13 +11,17 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ButtonModule } from 'primeng/button';
 import { Home1BodyComponent } from './home1-body/home1-body.component';
 import { FooterComponent } from './footer/footer.component';
+import { DreamComponent } from './dream/dream.component';
+import { TryItComponent } from './try-it/try-it.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     Home1BodyComponent,
-    FooterComponent
+    FooterComponent,
+    DreamComponent,
+    TryItComponent
   ],
   imports: [
     BrowserModule,
