@@ -12,6 +12,10 @@ import { ButtonModule } from 'primeng/button';
 import { Home1BodyComponent } from './home1-body/home1-body.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'primeng/carousel';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,9 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    CarouselModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

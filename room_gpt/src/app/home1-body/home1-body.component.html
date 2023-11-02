@@ -124,6 +124,15 @@
     <h1>Rooms that <span>RoomGPT</span> created</h1>
 </div>
 
+<!-- media -->
+
+<p-carousel [value]="images" [numVisible]="5" [numScroll]="1" [circular]="true" [autoplayInterval]="2500" [responsiveOptions]="responsiveOptions">
+    <ng-template let-image pTemplate="item">
+        <img [src]="image" alt="Image" class="scroll_img">
+    </ng-template>
+</p-carousel>
+
+
 
 <!-- media -->
 
