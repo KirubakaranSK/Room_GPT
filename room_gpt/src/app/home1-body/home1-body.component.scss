@@ -208,3 +208,11 @@ margin-bottom: 100px;
     height: 300px;
     
 }
+
+.scroll_img:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+    transition: all .8s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
