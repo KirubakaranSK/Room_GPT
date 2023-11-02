@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+$primary-color:blue;
+$secondary-color:#626161;
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background: url('assets/Group\ 1000003905.svg');
+    background-size: cover;
+ }
+
+
+.nav_flex .p-button{
+    padding: 1.3rem 3.3rem !important;
+    font-size: 1.6rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    
+    html{
+        font-size: 15px;
+    }
+
+}

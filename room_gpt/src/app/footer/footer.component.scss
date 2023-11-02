@@ -1,0 +1,38 @@
+@import '../../styles.scss';
+
+
+
+.home_footer{
+    width: 1200px;
+    margin-left: 340px;
+    margin-bottom: 20px;
+    .hr{
+        background-color: #bdb6b6;
+        padding: 1px;
+    }
+    .footer_flex{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        font-size: 2rem;
+        color:$secondary-color;
+        a{
+            
+            color: $secondary-color;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    .home_footer{
+        width: 700px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+
+        .footer_flex{
+            font-size: 1rem;
+        }
+    }
+}

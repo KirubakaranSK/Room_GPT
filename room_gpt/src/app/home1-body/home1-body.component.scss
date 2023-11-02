@@ -1,0 +1,200 @@
+@import '../../styles.scss';
+
+.body_intro{
+
+display: flex;
+padding: 30px;
+padding-left: 350px;
+margin-bottom: 100px;
+.body_intro_left{
+    width: 600px;
+    padding-top: 80px;
+
+.body_intro_left_1{
+    background:linear-gradient( to right ,rgb(234, 238, 239),transparent);
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    padding-left: 30px;
+    border-radius: 15px;
+    width: fit-content;
+    margin-bottom: 50px;
+    color:$secondary-color;
+    a{
+        color: $primary-color;
+        font-size: 2.2rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+}
+
+.body_intro_left_2{
+    font-size: 3rem;
+    line-height: 70px;
+    letter-spacing: 3px;
+    padding-bottom: 60px;
+
+    span{
+        color: $primary-color;
+    }
+}
+
+.body_intro_left_3{
+    background-color: $primary-color;
+    width: fit-content;
+    padding: 22px 40px;
+    border-radius: 35px;
+    
+    a{
+        display: flex;
+        text-decoration: none;
+        color: #fff;
+        font-size: 2rem;
+        gap: 10px;
+    }
+    
+}
+
+}
+
+}
+
+
+.body_brands{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+    img{
+        cursor: pointer;
+    }
+}
+
+.body_viwes_main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    .body_viwes_main_1{
+        font-size: 2.4rem;
+        width: 400px;
+        span{
+            color: $primary-color;
+        }
+    }
+
+    &_2{
+        font-size: 2rem;
+        width: 350px;
+        color: $secondary-color;
+        line-height: 37px;
+    }
+}
+
+
+.body_reviews_main{
+
+    display: flex;
+    gap: 20px;
+    padding-left: 350px;
+    flex-wrap: wrap;
+    background: url('../../assets/Group\ 1000003905.svg');
+    background-size: cover;
+    margin-bottom: 200px;
+    .body_reviews{
+        border: 1px solid rgb(237, 234, 234);
+        border-radius: 20px;
+        padding: 20px;
+        width: 400px;
+        background-color: #fff;
+
+        div{
+            margin: 20px;
+        }
+
+        .reviwes_profile {
+
+            display: flex;
+            img{
+                  width:60px;
+                  border: 1px solid blue;
+                  border-radius: 50%;
+                  padding: 8px 0;
+                }
+            div p{
+                color: $secondary-color;
+                padding-top: 5px;
+            }
+    }
+    }
+
+    div p{
+        font-size: 1.6rem;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .body_reviews:hover{
+        background-color: $primary-color;
+        color: #fff;
+        .reviwes_profile{
+        
+        img{
+            border: 1px solid #fff;
+        }
+        div p{
+            color: #fff;
+        }
+    }
+    }
+
+}
+
+.sample_crt_msg{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+    span{
+        color: $primary-color;
+    }
+}
+
+.body_home1_result{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+
+    
+  .body_result_left{
+
+    padding: 50px;
+    width: 550px;
+    .body_result_left_1{
+        font-size: 2rem;
+        width: 500px;
+        span{
+            color: $primary-color;
+        }
+    }
+
+    .body_result_left_2{
+        font-size: 2rem;
+        line-height: 28px;
+        letter-spacing: 1px;
+        width: 500px;
+        margin: 40px 0;
+    }
+    .body_result_left_3{
+        background-color: $primary-color;
+        width: fit-content;
+        padding: 15px 30px;
+        display: flex;
+        color: #fff;
+        gap: 10px;
+        border-radius: 35px;
+        text-decoration: none;
+    }
+}
+.result_img{
+    width: 500px;
+}
+}
