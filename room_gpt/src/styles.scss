@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
-
+@import "./variable.scss";
 $primary-color: blue;
 $secondary-color: #626161;
 
@@ -16,6 +16,8 @@ html {
 body {
   background: url("assets/Group\ 1000003905.svg");
   background-size: cover;
+  font-family: "Gilroy";
+  font-weight: 400;
 }
 
 .nav_flex .p-button {

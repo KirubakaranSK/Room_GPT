@@ -1,5 +1,18 @@
 @font-face {
-    font-family: "gilroy-regular";
-    src: url('./assets/fonts/gilroy/Gilroy-Regular.ttf');
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Regular.ttf");
+  font-weight: 400;
 }
-$regularFont:'gilroy-regular'
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/gilroy/Gilroy-Medium.ttf");
+  font-weight: 500;
+}
+
