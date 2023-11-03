@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
-
 // ng prime
 
 import { ButtonModule } from 'primeng/button';
@@ -16,7 +15,8 @@ import { TryItComponent } from './try-it/try-it.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'primeng/carousel';
-
+import { DropdownModule } from 'primeng/dropdown';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,16 +25,18 @@ import { CarouselModule } from 'primeng/carousel';
     Home1BodyComponent,
     FooterComponent,
     DreamComponent,
-    TryItComponent
+    TryItComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ButtonModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DropdownModule,
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
