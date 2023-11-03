@@ -95,11 +95,13 @@ margin-bottom: 100px;
 
     display: flex;
     gap: 20px;
-    padding-left: 350px;
     flex-wrap: wrap;
     background: url('../../assets/Group\ 1000003905.svg');
     background-size: cover;
     margin-bottom: 200px;
+    justify-content: center;
+    
+
     .body_reviews{
         border: 1px solid rgb(237, 234, 234);
         border-radius: 20px;
