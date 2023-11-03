@@ -1,4 +1,4 @@
-.hole{
+.hole {
   overflow-x: hidden;
 }
 .tracking-normal {
@@ -126,16 +126,33 @@ h6 {
   font-size: 15px;
   margin-left: 5px;
 }
-.img2 {
-  margin-left: 185px;
-  margin-top: 10px;
-}
-.img2 img {
-  width: 290px;
-}
+
 .ltext {
   margin-top: -40px;
   margin-left: 345px;
   font-size: 20px;
 }
+.main {
+  position: relative;
+  overflow: hidden;
+  background-color: #0000ff;
+  color: white;
+  border: 1px;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 43px;
+  margin-left: 9px;
+}
 
+input {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
