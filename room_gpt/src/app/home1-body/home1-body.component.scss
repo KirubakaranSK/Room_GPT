@@ -1,13 +1,14 @@
 @import "../../styles.scss";
 @import "../../variable.scss";
-
+.flex{
+display: flex;
+justify-content: center;
 .body_intro {
   display: flex;
   padding: 30px;
-  padding-left: 350px;
   margin-bottom: 100px;
   .body_intro_left {
-    width: 800px;
+    width:400px;
 
     .body_intro_left_1 {
       background: linear-gradient(to right, rgb(234, 238, 239), transparent);
@@ -55,7 +56,7 @@
     }
   }
 }
-
+}
 .body_brands {
   display: flex;
   gap: 50px;
@@ -86,6 +87,12 @@
   }
 }
 
+
+.flex{
+  
+  display: flex;
+  justify-content: center;
+
 .body_reviews_main {
   display: flex;
   gap: 20px;
@@ -94,11 +101,11 @@
   background-size: cover;
   margin-bottom: 200px;
   justify-content: center;
-
+  width: 1500px;
   .body_reviews {
     border: 1px solid rgb(237, 234, 234);
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px;
     width: 400px;
     background-color: #fff;
 
@@ -124,7 +131,7 @@
   div p {
     font-size: 1.6rem;
     line-height: 20px;
-    letter-spacing: 1px;
+    
   }
 
   .body_reviews:hover {
@@ -140,6 +147,8 @@
     }
   }
 }
+}
+
 
 .sample_crt_msg {
   font-size: 2rem;
