@@ -5,11 +5,10 @@ display: flex;
 justify-content: center;
 .body_intro {
   display: flex;
-  padding: 30px;
   margin-bottom: 100px;
   .body_intro_left {
     width:400px;
-
+    padding-top: 80px;
     .body_intro_left_1 {
       background: linear-gradient(to right, rgb(234, 238, 239), transparent);
       font-size: 1.5rem;
