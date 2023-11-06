@@ -23,6 +23,76 @@
       </span>
 
       <div class="font-bold text-md2">Select Room Themes (up to 4)</div>
+
+      <div class="img_flex">
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick1}" class="types_room_img1" src="../../assets/1img.png" (click)="count_img1()">
+          <div *ngIf="tick1" class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Modern</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick2}" class="types_room_img1" src="../../assets/2img.png" (click)="count_img2()">
+          <div *ngIf="tick2"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Summer</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick3}" class="types_room_img1" src="../../assets/3img.png" (click)="count_img3()">
+          <div *ngIf="tick3"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Professional</span>
+        </div>
+
+      </div>
+
+      <div class="img_flex">
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick4}" class="types_room_img1" src="../../assets/4img.png" (click)="count_img4()">
+          <div *ngIf="tick4"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Tropical</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick5}" class="types_room_img1" src="../../assets/5img.png" (click)="count_img5()">
+          <div *ngIf="tick5"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Coastal</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick6}" class="types_room_img1" src="../../assets/6imd.png" (click)="count_img6()">
+          <div *ngIf="tick6"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Vintage</span>
+        </div>
+
+      </div>
+
+      <div class="img_flex">
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick7}" class="types_room_img1" src="../../assets/7img.png" (click)="count_img7()">
+          <div *ngIf="tick7"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Tropical</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick8}" class="types_room_img1" src="../../assets/8img.png" (click)="count_img8()">
+          <div *ngIf="tick8"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Coastal</span>
+        </div>
+
+        <div class="select_img">
+          <div class="types_room_img"><img [ngClass]="{'active-class': tick9}" class="types_room_img1" src="../../assets/9img.png" (click)="count_img9()">
+          <div *ngIf="tick9"  class="types_room_tick"><img class="types_room_tick1" src="../../assets/tick.png"></div></div>
+          <span>Vintage</span>
+        </div>
+
+      </div>
+
+
+
+
+
       <div>
         <button type="file" class="upload-button1">Render designs</button>
         <h6 class="ltext">
@@ -30,7 +100,7 @@
         </h6>
       </div>
     </div>
-    <div class="col-8 card2">
+    <div class="col-8 cards">
       <h1 class="tracking-normal font-bold text-4xl mx-auto mb-5 hidden">
         Redesign your
         <span class="text-primary-700">room</span> in seconds
