@@ -15,23 +15,22 @@ export class TryItComponent implements OnInit{
 
     count:number=0;
 
-    cities: City[] | undefined;
+    types: City[] | undefined;
     
     formGroup: FormGroup | undefined;
-selectedCity: any;
+    selectedtype: any;
 
     ngOnInit() {
-        this.cities = [
-            { name: 'New York', code: 'NY' },
-            { name: 'Rome', code: 'RM' },
-            { name: 'London', code: 'LDN' },
-            { name: 'Istanbul', code: 'IST' },
-            { name: 'Paris', code: 'PRS' }
-        ];
-
-        this.formGroup = new FormGroup({
-            selectedCity: new FormControl<City | null>(null)
-        });
+      this.types = [
+          { name: 'Living room', code: 'lr' },
+          { name: 'Dinig room', code: 'dm' },
+          { name: 'Badroom', code: 'br' },
+          { name: 'Office', code: 'of' },
+          { name: 'Kitchen', code: 'kh' },
+          { name: 'Basement', code: 'bm' },
+          { name: 'Gaming room', code: 'gr' },
+          { name: 'Outdoor patio', code: 'op' }
+      ];
     }
-
+    
 }

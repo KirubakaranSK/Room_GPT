@@ -13,26 +13,13 @@
       </div>
       <div class="font-bold text-md1">Select Room Type</div>
 
-      <!-- <select id="fruitDropdown" class="dropdown">
-          <option value="">Living room</option>
-          <option value="">Dinig room</option>
-          <option value="">Badroom</option>
-          <option value="">Office</option>
-          <option value="">Kitchen</option>
-          <option value="">Basement</option>
-          <option value="">Gaming room</option>
-          <option value="">Outdoor patio</option>
-        </select> -->
-
       <span class="p-float-label">
         <p-dropdown
-          [options]="cities"
-          [(ngModel)]="selectedCity"
-          placeholder="Select a City"
+          [options]="types"
+          [(ngModel)]="selectedtype"
           optionLabel="name"
-          inputId="float-label"
         ></p-dropdown>
-        <label for="float-label">Select a City</label>
+        
       </span>
 
       <div class="font-bold text-md2">Select Room Themes (up to 4)</div>
