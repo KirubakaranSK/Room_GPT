@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 
 interface City {
@@ -11,13 +11,14 @@ interface City {
   templateUrl: './try-it.component.html',
   styleUrls: ['./try-it.component.scss']
 })
-export class TryItComponent {
+export class TryItComponent implements OnInit{
 
     count:number=0;
 
     cities: City[] | undefined;
     
     formGroup: FormGroup | undefined;
+selectedCity: any;
 
     ngOnInit() {
         this.cities = [

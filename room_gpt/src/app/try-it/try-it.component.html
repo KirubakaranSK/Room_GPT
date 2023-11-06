@@ -12,8 +12,8 @@
         <h6>...or drag and drop an image.</h6>
       </div>
       <div class="font-bold text-md1">Select Room Type</div>
-     
-        <select id="fruitDropdown" class="dropdown">
+
+      <!-- <select id="fruitDropdown" class="dropdown">
           <option value="">Living room</option>
           <option value="">Dinig room</option>
           <option value="">Badroom</option>
@@ -22,13 +22,25 @@
           <option value="">Basement</option>
           <option value="">Gaming room</option>
           <option value="">Outdoor patio</option>
-        </select>
-        
-  
+        </select> -->
+
+      <span class="p-float-label">
+        <p-dropdown
+          [options]="cities"
+          [(ngModel)]="selectedCity"
+          placeholder="Select a City"
+          optionLabel="name"
+          inputId="float-label"
+        ></p-dropdown>
+        <label for="float-label">Select a City</label>
+      </span>
+
       <div class="font-bold text-md2">Select Room Themes (up to 4)</div>
       <div>
         <button type="file" class="upload-button1">Render designs</button>
-        <h6 class="ltext">Cost: <span class="font-bold">{{count}} credit</span></h6>
+        <h6 class="ltext">
+          Cost: <span class="font-bold">{{ count }} credit</span>
+        </h6>
       </div>
     </div>
     <div class="col-8 card2">
