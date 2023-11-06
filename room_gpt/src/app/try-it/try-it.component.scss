@@ -156,3 +156,21 @@ input {
   right: 0;
   top: 0;
 }
+.dropdown {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 195px;
+  font-size: 20px;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+  padding: 6px 130px 6px 2px;
+  option {
+    border-radius: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
