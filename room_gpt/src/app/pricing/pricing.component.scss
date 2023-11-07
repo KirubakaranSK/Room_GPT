@@ -1,0 +1,73 @@
+@import "../../styles.scss";
+@import "../../variable.scss";
+
+.container {
+  //   height: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title-1 {
+  margin-top: 35px;
+  h1 {
+    text-align: center;
+    font-size: 4.8rem;
+    font-weight: 700;
+    span {
+      color: $primary-color;
+    }
+  }
+}
+.ptext-1 {
+  margin: 0 auto;
+  width: 55%;
+  p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 500;
+    opacity: 1;
+    color: rgb(107 114 128);
+    span {
+      color: $primary-color;
+    }
+  }
+}
+.box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  .box1 {
+    height: 450px;
+    width: 400px;
+    background: red;
+    padding: 45px 20px;
+    .innerbox1 {
+      background-color: aqua;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .box2 {
+    height: 450px;
+    width: 400px;
+    padding: 45px 20px;
+    background: rgba(84, 253, 42, 0.664);
+    .innerbox2 {
+      background-color: aqua;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .box3 {
+    height: 450px;
+    width: 400px;
+    padding: 45px 20px;
+    background: rgb(35, 44, 161);
+    .innerbox3 {
+      background-color: aqua;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
