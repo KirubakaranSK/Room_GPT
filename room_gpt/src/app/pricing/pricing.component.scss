@@ -10,8 +10,8 @@
   margin-top: 35px;
   h1 {
     text-align: center;
-    font-size: 4.8rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight:700;
     span {
       color: $primary-color;
     }
@@ -37,37 +37,163 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
   .box1 {
-    height: 450px;
+    height: 400px;
     width: 400px;
-    background: red;
-    padding: 45px 20px;
+    // background: red;
+    padding: 20px 10px;
+    position: relative;
+    
     .innerbox1 {
-      background-color: aqua;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       height: 100%;
       width: 100%;
+      border-radius: 20px;
+      padding: 10px;
+      span{
+        font-weight: 600;
+        background-color: aliceblue;
+       padding:5px 24px;  
+    // padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0;
+    border-radius:20px;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+      }
+      p{
+          font-weight: 400;
+          font-size: 2rem;
+      }
+      h1{
+        font-size: 5rem;
+        font-weight: 600;
+      }
+      button{
+        padding-left: 2.5rem;
+         padding-right: 2.5rem;
+        font-size:18px;
+        border-radius: 38px;
+        border: none;
+        background-color: $primary-color;
+        color: white;
+        font-weight:700;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        position: absolute;
+        left: 0;
+        right:0;
+        bottom: 0;
+      }
     }
+
   }
   .box2 {
     height: 450px;
     width: 400px;
-    padding: 45px 20px;
-    background: rgba(84, 253, 42, 0.664);
+    padding: 20px 10px;
+   
+    // background: rgba(84, 253, 42, 0.664);
+    position: relative;
     .innerbox2 {
-      background-color: aqua;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       height: 100%;
       width: 100%;
+      border-radius: 20px;
+      padding: 10px;
+      span{
+        font-weight: 600;
+        background-color: aliceblue;
+       padding:5px 24px;  
+    // padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0;
+    border-radius:20px;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+      }
+      p{
+          font-weight: 400;
+          font-size: 2rem;
+      }
+      h1{
+        font-size: 5rem;
+        font-weight: 600;
+      }
+      button{
+        padding-left: 2.5rem;
+         padding-right: 2.5rem;
+        font-size:18px;
+        border-radius: 38px;
+        border: none;
+        background-color: $primary-color;
+        color: white;
+        font-weight:700;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        position: absolute;
+        left: 0;
+        right:0;
+        bottom: 0;
+      }
     }
   }
   .box3 {
     height: 450px;
     width: 400px;
-    padding: 45px 20px;
-    background: rgb(35, 44, 161);
+    padding: 20px 10px;
+    // background: rgb(35, 44, 161);
+    position: relative;
+   
     .innerbox3 {
-      background-color: aqua;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
       height: 100%;
       width: 100%;
+      border-radius: 20px;
+      padding: 10px;
+      span{
+        font-weight: 600;
+        background-color: aliceblue;
+       padding:5px 24px;  
+    // padding-bottom: 5px;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0;
+    border-radius:20px;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+      }
+      p{
+          font-weight: 400;
+          font-size: 2rem;
+      }
+      h1{
+        font-size: 5rem;
+        font-weight: 600;
+      }
+      button{
+        padding-left: 2.5rem;
+         padding-right: 2.5rem;
+        font-size:18px;
+        border-radius: 38px;
+        border: none;
+        background-color: $primary-color;
+        color: white;
+        font-weight:700;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        position: absolute;
+        left: 0;
+        right:0;
+        bottom: 0;
+        text-transform: none;
+        
+      }
+
     }
   }
+ 
 }
