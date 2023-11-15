@@ -30,30 +30,24 @@
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 .text-lg {
-  font-size: 22px;
+  font-size: 1.8rem;
   line-height: 160%;
   letter-spacing: 0;
 }
-.mx-auto {
-  margin-right: auto !important;
-  margin-left: -24px !important;
-}
+
 .text-primary-700 {
-  --tw-text-opacity: 1;
-  color: rgb(15 127 239 / var(--tw-text-opacity));
+  color:$primary-color;
 }
 p {
-  margin-left: 20px;
-  margin-top: -13px;
+  text-align: center;
 }
 .mainimg {
   display: flex;
-  margin-left: 210px;
-  height: 315px;
-  margin-top: 25px;
+  justify-content: center;
+  padding: 20px;
 }
 .cards {
-height: 1500px;
+height: 1200px;
 padding-left: 50px;
 
 }
@@ -67,7 +61,6 @@ font-bold {
 .text-md {
   font-size: 18px;
   line-height: 26px;
-  //   letter-spacing: -10px;
   margin-left: 215px;
   margin-top: 10px;
 }
@@ -167,7 +160,6 @@ input {
 }
 
 .img_flex{
-
   display: flex;
   gap: 20px;
   margin: 30px;
@@ -179,7 +171,6 @@ input {
   }
 }
 .select_img{
-  
       .types_room_img{
         position: relative;
         width: fit-content;
@@ -200,7 +191,6 @@ input {
             width: 15px;
         }
       }
-
 }
 
 .active-class{
